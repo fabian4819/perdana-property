@@ -168,7 +168,7 @@ export default function HomePage({ onPageChange }: HomePageProps) {
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <CardTitle className="text-3xl">Kos Perdana</CardTitle>
-                  <Badge className="bg-blue-100 text-blue-700">Student Housing</Badge>
+                  <Badge className="bg-blue-100 text-blue-700">Student & Worker Housing</Badge>
                 </div>
                 <p className="text-slate-600 text-lg">Kos modern untuk mahasiswa dan pekerja muda</p>
               </CardHeader>

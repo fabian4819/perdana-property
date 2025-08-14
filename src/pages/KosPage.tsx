@@ -17,7 +17,7 @@ export default function KosPage() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <Badge className="mb-6 bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-6 py-2">
-              🏠 Modern Student Housing
+              🏠 Modern Student & Worker Housing
             </Badge>
             <h1 className="text-5xl md:text-6xl font-bold text-slate-800 mb-6">
               Kos Perdana
