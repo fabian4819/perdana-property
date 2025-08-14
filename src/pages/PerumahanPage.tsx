@@ -23,13 +23,13 @@ export default function PerumahanPage() {
               Griya Perdana Asri
             </h1>
             <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Hunian keluarga modern dengan konsep lingkungan asri, fasilitas lengkap, dan lokasi strategis di Bekasi Timur.
+              Hunian keluarga modern dengan konsep lingkungan asri, fasilitas lengkap, dan lokasi strategis di Pati.
               Wujudkan impian memiliki rumah dengan cicilan yang terjangkau.
             </p>
             <div className="flex items-center justify-center space-x-8 text-slate-600">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-green-600" />
-                <span>Jl. Perdana Raya, Bekasi Timur</span>
+                <span>Langgen, Langgenharjo, Juwana, Pati, Jawa Tengah 59185</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Home className="h-5 w-5 text-green-600" />
@@ -104,7 +104,7 @@ export default function PerumahanPage() {
                   </div>
                 </div>
 
-                <Button 
+                <Button
                   className="w-full relative overflow-hidden bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 transition-all duration-500 hover:scale-105 hover:shadow-2xl group"
                   onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
                 >
@@ -179,7 +179,7 @@ export default function PerumahanPage() {
                   </div>
                 </div>
 
-                <Button 
+                <Button
                   className="w-full relative overflow-hidden bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 transition-all duration-500 hover:scale-105 hover:shadow-2xl group"
                   onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
                 >
@@ -249,7 +249,7 @@ export default function PerumahanPage() {
                   </div>
                 </div>
 
-                <Button 
+                <Button
                   className="w-full relative overflow-hidden bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 transition-all duration-500 hover:scale-105 hover:shadow-2xl group"
                   onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
                 >
@@ -290,10 +290,19 @@ export default function PerumahanPage() {
               </CardHeader>
               <CardContent>
                 <div className="aspect-video bg-gradient-to-br from-green-200 to-blue-200 rounded-lg flex items-center justify-center text-slate-600 font-semibold mb-4">
-                  [Google Maps Embed - Jl. Perdana Raya, Bekasi Timur]
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.661963839974!2d111.048017!3d-6.704984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70d2f7e3b3e3e1%3A0x6e8e7b9e8e7b9e8e!2sLanggen%2C%20Langgenharjo%2C%20Juwana%2C%20Pati%2C%20Jawa%20Tengah%2059185!5e0!3m2!1sid!2sid!4v1715680000000!5m2!1sid!2sid"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0, borderRadius: '0.5rem' }}
+                    allowFullScreen={true}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Lokasi Griya Perdana Asri"
+                  ></iframe>
                 </div>
                 <p className="text-slate-600 mb-4">
-                  <strong>Alamat:</strong> Jl. Perdana Raya, Bekasi Timur, Jawa Barat
+                  <strong>Alamat:</strong> Langgen, Langgenharjo, Juwana, Pati, Jawa Tengah 59185
                 </p>
                 <div className="space-y-3">
                   <div className="flex items-center space-x-3">
@@ -465,7 +474,7 @@ export default function PerumahanPage() {
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <div className="group relative">
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20 transition-all duration-500 group-hover:bg-white/20 group-hover:scale-110 group-hover:shadow-2xl">
-                <a 
+                <a
                   href="https://wa.me/6282323349674"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -484,9 +493,9 @@ export default function PerumahanPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl opacity-0 group-hover:opacity-20 transition-opacity duration-500 -z-10"></div>
             </div>
-            
-            <Button 
-              size="lg" 
+
+            <Button
+              size="lg"
               className="relative overflow-hidden bg-white text-green-600 border-2 border-white hover:border-green-400 transition-all duration-500 hover:scale-110 hover:shadow-2xl group px-8 py-4"
               onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
             >

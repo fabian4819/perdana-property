@@ -23,13 +23,13 @@ export default function KosPage() {
               Kos Perdana
             </h1>
             <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Hunian modern khusus mahasiswa dan pekerja muda dengan fasilitas lengkap, keamanan 24 jam, 
+              Hunian modern khusus mahasiswa dan pekerja muda dengan fasilitas lengkap, keamanan 24 jam,
               dan lokasi strategis dekat kampus-kampus terkemuka.
             </p>
             <div className="flex items-center justify-center space-x-8 text-slate-600">
               <div className="flex items-center space-x-2">
                 <MapPin className="h-5 w-5 text-blue-600" />
-                <span>Jl. Kampus Raya No. 15, Depok</span>
+                <span>Kincir Wetan, Langgenharjo, Juwana, Pati, Jawa Tengah</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Users className="h-5 w-5 text-blue-600" />
@@ -111,7 +111,7 @@ export default function KosPage() {
                   </div>
                 </div>
 
-                <Button 
+                <Button
                   className="w-full relative overflow-hidden bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-500 hover:scale-105 hover:shadow-2xl group"
                   onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
                 >
@@ -193,7 +193,7 @@ export default function KosPage() {
                   </div>
                 </div>
 
-                <Button 
+                <Button
                   className="w-full relative overflow-hidden bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-500 hover:scale-105 hover:shadow-2xl group"
                   onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
                 >
@@ -270,7 +270,7 @@ export default function KosPage() {
                   </div>
                 </div>
 
-                <Button 
+                <Button
                   className="w-full relative overflow-hidden bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 transition-all duration-500 hover:scale-105 hover:shadow-2xl group"
                   onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
                 >
@@ -400,12 +400,21 @@ export default function KosPage() {
               </CardHeader>
               <CardContent>
                 <div className="aspect-video bg-gradient-to-br from-blue-200 to-indigo-200 rounded-lg flex items-center justify-center text-slate-600 font-semibold mb-6">
-                  [Google Maps Embed - Jl. Kampus Raya No. 15, Depok]
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.664032769568!2d111.049019!3d-6.705024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70d2f7e3b3e3e1%3A0x6e8e7b9e8e7b9e8e!2sKos%20Perdana%2C%20Kincir%20Wetan%2C%20Langgenharjo%2C%20Juwana%2C%20Pati%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1715680000000!5m2!1sid!2sid"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0, borderRadius: '0.5rem' }}
+                    allowFullScreen={true}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Lokasi Kos Perdana"
+                  ></iframe>
                 </div>
                 <p className="text-slate-600 mb-6">
-                  <strong>Alamat:</strong> Jl. Kampus Raya No. 15, Depok, Jawa Barat
+                  <strong>Alamat:</strong> Kincir Wetan, Langgenharjo, Juwana, Pati, Jawa Tengah
                 </p>
-                
+
                 <div className="space-y-4">
                   <h4 className="font-semibold text-slate-800">Jarak ke Kampus:</h4>
                   <div className="space-y-3">
@@ -507,7 +516,7 @@ export default function KosPage() {
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center">
             <div className="group relative">
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/20 transition-all duration-500 group-hover:bg-white/20 group-hover:scale-110 group-hover:shadow-2xl">
-                <a 
+                <a
                   href="https://wa.me/6282323349674"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -526,9 +535,9 @@ export default function KosPage() {
               </div>
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl opacity-0 group-hover:opacity-20 transition-opacity duration-500 -z-10"></div>
             </div>
-            
-            <Button 
-              size="lg" 
+
+            <Button
+              size="lg"
               className="relative overflow-hidden bg-white text-blue-600 border-2 border-white hover:border-green-400 transition-all duration-500 hover:scale-110 hover:shadow-2xl group px-8 py-4"
               onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
             >
