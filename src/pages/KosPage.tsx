@@ -54,7 +54,11 @@ export default function KosPage() {
             {/* Standard Room */}
             <Card className="overflow-hidden group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg">
               <div className="aspect-video bg-gradient-to-br from-indigo-400 to-blue-500 flex items-center justify-center text-white text-lg font-semibold">
-                [Kamar Standard Image]
+                <img
+                  src="/assets/kos-2.jpeg"
+                  alt="Kamar Standard"
+                  className="object-cover w-full h-full rounded-lg"
+                />
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start">
@@ -132,7 +136,11 @@ export default function KosPage() {
             <Card className="overflow-hidden group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg ring-2 ring-blue-200">
               <div className="relative">
                 <div className="aspect-video bg-gradient-to-br from-purple-400 to-indigo-500 flex items-center justify-center text-white text-lg font-semibold">
-                  [Kamar Premium Image]
+                  <img
+                    src="/assets/kos-3.jpeg"
+                    alt="Kamar Premium"
+                    className="object-cover w-full h-full rounded-lg"
+                  />
                 </div>
                 <div className="absolute top-4 right-4">
                   <Badge className="bg-orange-500">Paling Diminati</Badge>
@@ -213,7 +221,11 @@ export default function KosPage() {
             {/* Deluxe Room */}
             <Card className="overflow-hidden group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg">
               <div className="aspect-video bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center text-white text-lg font-semibold">
-                [Kamar Deluxe Image]
+                <img
+                  src="/assets/kos-4.jpeg"
+                  alt="Kamar Deluxe"
+                  className="object-cover w-full h-full rounded-lg"
+                />
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start">

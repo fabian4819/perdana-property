@@ -28,21 +28,21 @@ export default function HomePage({ onPageChange }: HomePageProps) {
             <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"> Impian Anda</span>
           </h1>
           <p className="text-xl text-slate-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-            Dari rumah keluarga yang nyaman hingga kos modern untuk mahasiswa. 
+            Dari rumah keluarga yang nyaman hingga kos modern untuk mahasiswa.
             Kami menyediakan hunian berkualitas dengan lokasi strategis dan harga terjangkau.
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-lg px-8 py-4"
               onClick={() => onPageChange('perumahan')}
             >
               <Home className="mr-3 h-6 w-6" />
               Lihat Perumahan
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline" 
+            <Button
+              size="lg"
+              variant="outline"
               className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-lg px-8 py-4"
               onClick={() => onPageChange('kos')}
             >
@@ -123,7 +123,11 @@ export default function HomePage({ onPageChange }: HomePageProps) {
             {/* Perumahan */}
             <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
               <div className="aspect-video bg-gradient-to-br from-emerald-400 to-blue-500 flex items-center justify-center text-white text-2xl font-bold">
-                [Griya Perdana Asri Image]
+                <img
+                  src="/assets/perumahan-2.jpeg"
+                  alt="Griya Perdana Asri"
+                  className="object-cover w-full h-full rounded-lg"
+                />
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start">
@@ -151,7 +155,7 @@ export default function HomePage({ onPageChange }: HomePageProps) {
                     <span className="text-sm">KPR Tersedia</span>
                   </div>
                 </div>
-                <Button 
+                <Button
                   className="w-full bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700"
                   onClick={() => onPageChange('perumahan')}
                 >
@@ -163,7 +167,11 @@ export default function HomePage({ onPageChange }: HomePageProps) {
             {/* Kos */}
             <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-0 shadow-lg">
               <div className="aspect-video bg-gradient-to-br from-indigo-400 to-purple-500 flex items-center justify-center text-white text-2xl font-bold">
-                [Kos Perdana Image]
+                <img
+                  src="/assets/kos-1.jpeg"
+                  alt="Kos Perdana"
+                  className="object-cover w-full h-full rounded-lg"
+                />
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start">
@@ -191,7 +199,7 @@ export default function HomePage({ onPageChange }: HomePageProps) {
                     <span className="text-sm">Fasilitas Lengkap</span>
                   </div>
                 </div>
-                <Button 
+                <Button
                   className="w-full bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700"
                   onClick={() => onPageChange('kos')}
                 >
@@ -287,7 +295,7 @@ export default function HomePage({ onPageChange }: HomePageProps) {
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <div className="group relative">
-              <a 
+              <a
                 href="https://wa.me/6282323349674"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -306,9 +314,9 @@ export default function HomePage({ onPageChange }: HomePageProps) {
               </a>
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-xl opacity-0 group-hover:opacity-20 transition-opacity duration-500 -z-10"></div>
             </div>
-            
-            <Button 
-              size="lg" 
+
+            <Button
+              size="lg"
               className="relative overflow-hidden bg-white text-blue-600 border-2 border-white hover:border-green-400 transition-all duration-500 hover:scale-110 hover:shadow-2xl group px-8 py-4"
               onClick={() => window.open('https://wa.me/6282323349674', '_blank')}
             >

@@ -54,7 +54,11 @@ export default function PerumahanPage() {
             {/* Type 36/72 */}
             <Card className="overflow-hidden group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg">
               <div className="aspect-video bg-gradient-to-br from-emerald-400 to-blue-500 flex items-center justify-center text-white text-lg font-semibold">
-                [Rumah Type 36/72 Image]
+                <img
+                  src="/assets/perumahan-1.jpeg"
+                  alt="Rumah Type 36/72"
+                  className="object-cover w-full h-full rounded-lg"
+                />
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start">
@@ -125,7 +129,11 @@ export default function PerumahanPage() {
             <Card className="overflow-hidden group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg ring-2 ring-green-200">
               <div className="relative">
                 <div className="aspect-video bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-lg font-semibold">
-                  [Rumah Type 45/90 Image]
+                  <img
+                    src="/assets/perumahan-2.jpeg"
+                    alt="Rumah Type 45/90"
+                    className="object-cover w-full h-full rounded-lg"
+                  />
                 </div>
                 <div className="absolute top-4 right-4">
                   <Badge className="bg-orange-500">Paling Populer</Badge>
@@ -199,7 +207,11 @@ export default function PerumahanPage() {
             {/* Type 60/120 */}
             <Card className="overflow-hidden group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg">
               <div className="aspect-video bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center text-white text-lg font-semibold">
-                [Rumah Type 60/120 Image]
+                <img
+                  src="/assets/perumahan-3.jpeg"
+                  alt="Rumah Type 60/120"
+                  className="object-cover w-full h-full rounded-lg"
+                />
               </div>
               <CardHeader>
                 <div className="flex justify-between items-start">
